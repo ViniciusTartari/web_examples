@@ -2,7 +2,7 @@
 
 <h2>Repositório de códigos exemplo de funcionalidades web diversas.
 
-<h3>Projetos:
+<h4>Projetos:
 
 - AnimatedIcons - Animação de ícones do FontAwesome com JavaScript;
 - FilterableList - Campo estilo filtro de itens em lista com JavaScript;
