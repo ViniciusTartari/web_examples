@@ -1,8 +1,8 @@
-<h1>My web examples
+# My web examples
 
-<h2>Repositório de códigos exemplo de funcionalidades web diversas.
+## Repositório de códigos exemplo de funcionalidades web diversas
 
-<h4>Projetos:
+### Projetos
 
 - AnimatedIcons - Animação de ícones do FontAwesome com JavaScript;
 - FilterableList - Campo estilo filtro de itens em lista com JavaScript;
@@ -10,3 +10,4 @@
 - StateCapitalSearch - Outro exemplo de campo estilo filtro de itens em lista com JavaScript;
 - WeightConverter - Conversor de medidas simples em JavaScript;
 - NodeApi - Construção de API simplificada utilizando Node, Express e MongoDB;
+- ReactChart - Exemplo de uso do Chart.js no React;
