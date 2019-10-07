@@ -12,3 +12,4 @@
 - NodeApi - Construção de API simplificada utilizando Node, Express e MongoDB;
 - ReactChart - Exemplo de uso do Chart.js no React;
 - BarCodeScannerExpo - Exemplo de uso do barCodeScanner(Expo) com React Native;
+- GraphQLExample - Exemplo de uso do GraphQL - CRUD simples;

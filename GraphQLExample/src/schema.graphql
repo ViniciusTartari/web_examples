@@ -1,0 +1,18 @@
+type User {
+  id: ID!
+  name: String!
+  email: String!
+}
+
+type Query {
+  # O ! de dentro obriga que todas as posicoes do vetor sejam do tipo User
+  # O ! de fora obriga que sempre seja retornado um array, mesmo que []
+  users: [User!]!
+  user(id: ID!): User
+}
+
+type Mutation {
+  createUser(name: String!, email: String!): User
+  updateUser(name: String!, email: String!): User
+  deleteUser(id: ID!): User
+}
