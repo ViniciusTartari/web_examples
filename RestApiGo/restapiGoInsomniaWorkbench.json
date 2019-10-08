@@ -1,0 +1,173 @@
+{
+	"_type": "export",
+	"__export_format": 3,
+	"__export_date": "2019-10-08T18:23:42.701Z",
+	"__export_source": "insomnia.desktop.app:v6.3.2",
+	"resources": [
+		{
+			"_id": "wrk_97ddbb13493a4370a79b82840fc067e8",
+			"created": 1570556981617,
+			"description": "",
+			"modified": 1570556981616,
+			"name": "restapiGO",
+			"parentId": null,
+			"_type": "workspace"
+		},
+		{
+			"_id": "env_6d3f0a0ef94443ebb2434e38334a49f8",
+			"color": null,
+			"created": 1570556981715,
+			"data": {
+				"baseURL": "http://localhost:8000/api"
+			},
+			"isPrivate": false,
+			"metaSortKey": 1570556981715,
+			"modified": 1570557029033,
+			"name": "New Environment",
+			"parentId": "wrk_97ddbb13493a4370a79b82840fc067e8",
+			"_type": "environment"
+		},
+		{
+			"_id": "jar_24cb02efae02445ab0c56a3080d4acac",
+			"cookies": [],
+			"created": 1570556981717,
+			"modified": 1570556981717,
+			"name": "Default Jar",
+			"parentId": "wrk_97ddbb13493a4370a79b82840fc067e8",
+			"_type": "cookie_jar"
+		},
+		{
+			"_id": "req_5b5aa423864e41c4925252ef087eb25c",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"isbn\": \"12321\",\n\t\"title\": \"Book four\",\n\t\"Author\": {\n\t\t\"firstname\": \"Vinicius\",\n\t\t\"lastname\": \"Tartari\"\n\t}\n}"
+			},
+			"created": 1570557050093,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_1751d4b119184813b4d1f29c8f42e407",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1570557050094,
+			"method": "POST",
+			"modified": 1570557149362,
+			"name": "createBook",
+			"parameters": [],
+			"parentId": "wrk_97ddbb13493a4370a79b82840fc067e8",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ baseURL  }}/books",
+			"_type": "request"
+		},
+		{
+			"_id": "req_220758edc3584a34a271e407d9b7e9b5",
+			"authentication": {},
+			"body": {},
+			"created": 1570557207233,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1570557050044,
+			"method": "GET",
+			"modified": 1570557226282,
+			"name": "readAllBooks",
+			"parameters": [],
+			"parentId": "wrk_97ddbb13493a4370a79b82840fc067e8",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ baseURL  }}/books",
+			"_type": "request"
+		},
+		{
+			"_id": "req_e59e6d25f99d43059a35270a228c53ee",
+			"authentication": {},
+			"body": {},
+			"created": 1570557227633,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1570510382636.5,
+			"method": "GET",
+			"modified": 1570557333540,
+			"name": "readOneBook",
+			"parameters": [],
+			"parentId": "wrk_97ddbb13493a4370a79b82840fc067e8",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ baseURL  }}/books/1",
+			"_type": "request"
+		},
+		{
+			"_id": "req_76d07a6a7c70439ebbb78611d72473e1",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"isbn\": \"12345\",\n\t\"title\": \"Book ONE\",\n\t\"Author\": {\n\t\t\"firstname\": \"Vinicius\",\n\t\t\"lastname\": \"Tartari\"\n\t}\n}"
+			},
+			"created": 1570557247875,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_1751d4b119184813b4d1f29c8f42e407",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1570510382586.5,
+			"method": "PUT",
+			"modified": 1570557389549,
+			"name": "updateBook",
+			"parameters": [],
+			"parentId": "wrk_97ddbb13493a4370a79b82840fc067e8",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ baseURL  }}/books/1",
+			"_type": "request"
+		},
+		{
+			"_id": "req_891a989ec91a47a59b415ce5de2f72e9",
+			"authentication": {},
+			"body": {},
+			"created": 1570557266810,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1570510382536.5,
+			"method": "DELETE",
+			"modified": 1570557815006,
+			"name": "deleteBook",
+			"parameters": [],
+			"parentId": "wrk_97ddbb13493a4370a79b82840fc067e8",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ baseURL  }}/books/3",
+			"_type": "request"
+		}
+	]
+}
