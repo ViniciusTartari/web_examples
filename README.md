@@ -15,3 +15,4 @@
 - GraphQLExample - Exemplo de uso do GraphQL - CRUD simples;
 - RestApiGo - API com CRUD simples feita em GO - Insomnia workbench adicionado;
 - GoSimpleAPI - API simples feita em GO com autenticação via JSON Web Tokens;
+- CustomerBase - _Node.js/Express CRUD backend using GraphQL and JSON-Server_;
