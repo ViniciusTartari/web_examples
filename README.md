@@ -16,3 +16,4 @@
 - RestApiGo - API com CRUD simples feita em GO - Insomnia workbench adicionado;
 - GoSimpleAPI - API simples feita em GO com autenticação via JSON Web Tokens;
 - CustomerBase - _Node.js/Express CRUD backend using GraphQL and JSON-Server_;
+- RealTimeNodeChat - Chat real time simples com node, express e socket.io;
