@@ -19,3 +19,4 @@
 - RealTimeNodeChat - Chat real time simples com node, express e socket.io;
 - GoNetCLI - Website Lookup CLI: Let's you query IPs, CNAMEs, Addr's, Host, MX records and Name Servers!
 - TsNode - Base de configuração para utilização de typescript no Node - Inclui um CRUD básico de usuário como exemplo;
+- NodeAuthTDD - Sistema de login com JWT no node utilizando TDD;
